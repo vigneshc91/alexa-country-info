@@ -2,5 +2,5 @@ Flask==1.0.2
 Flask-Ask==0.9.8
 Jinja2==2.10
 gunicorn==19.6.0
-cryptograpy==2.3.1
+cryptograpy==2.1.4
 requests==2.18.4
