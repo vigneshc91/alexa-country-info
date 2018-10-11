@@ -1,0 +1,6 @@
+Flask==0.12.1
+Flask-Ask==0.9.8
+Jinja2==2.10
+gunicorn==19.6.0
+cryptograpy==2.0
+requests==2.18.4
