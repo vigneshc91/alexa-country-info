@@ -10,6 +10,10 @@ app.config['ASK_APPLICATION_ID'] = AppConstants.ALEXA_SKILL_ID
 ask = Ask(app, '/')
 countryObj = Country()
 
+@app.route('/')
+def index():
+    return 'welcome to Country Info.'
+
 @ask.launch
 def launched():
     text = render_template('welcome')
