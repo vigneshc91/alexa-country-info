@@ -1,0 +1,4 @@
+welcome: Welcome to country info, You can say a country name to know the information about that
+cancel: Good bye!
+help: You can ask for any country information
+country_not_found: The country you are requested seems to be invalid, Please say the full name of the country to know about that
