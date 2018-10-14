@@ -51,7 +51,7 @@ def country_info(country):
         with the total area of {area} square kilometers and 
         population exceeding {population}. {capital} is the capital of {name}.
         {languages} is the most widely spoken languages in {name}. 
-        {currencies} is the currency of {name}
+        {currencies} is the currency of {name}.
         """.format(
             name=info['name'],
             subregion=info['subregion'],
