@@ -62,11 +62,9 @@ def country_info(country):
             languages=languages,
             currencies=currencies
         )
-        return statement(text).standard_card(
+        return statement(text).simple_card(
             title=info['name'],
-            text="Located in {}".format(info['subregion']),
-            small_image_url=info['flag'],
-            large_image_url=info['flag']
+            content="Located in {}".format(info['subregion'])
         )
 
     return statement(text)
